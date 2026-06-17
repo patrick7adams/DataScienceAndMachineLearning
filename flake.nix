@@ -14,12 +14,13 @@
       devShells = forAllSystems (system:
         let
           pkgs = nixpkgs.legacyPackages.${system};
-          pythonEnv = pkgs.python311.withPackages (ps: with ps; [
+          pythonEnv = pkgs.python312.withPackages (ps: with ps; [
             numpy
             pandas
             seaborn
             matplotlib
             jupyter
+            mlxtend
           ]);
         in
         {
