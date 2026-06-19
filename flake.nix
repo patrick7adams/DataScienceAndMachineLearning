@@ -21,6 +21,8 @@
             matplotlib
             jupyter
             mlxtend
+            pip
+            ipykernel
           ]);
         in
         {
