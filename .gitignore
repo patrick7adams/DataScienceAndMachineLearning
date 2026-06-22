@@ -1,2 +1,4 @@
 .envrc
 .direnv
+Data/MNIST-Dataset
+Data/MNIST-Fashion-Dataset
