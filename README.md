@@ -7,7 +7,6 @@ include markdown explaining algorithms also along the way
 
 Algorithms to implement:
 supervised:
-    Logistic Regression (w/ gradient descent)
     Multilayer Perceptron
     Decision trees
 
