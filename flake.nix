@@ -23,6 +23,7 @@
             mlxtend
             pip
             ipykernel
+            scikit-learn
           ]);
         in
         {
