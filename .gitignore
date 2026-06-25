@@ -2,3 +2,4 @@
 .direnv
 Data/MNIST-Dataset
 Data/MNIST-Fashion-Dataset
+Data/Titanic-Dataset
