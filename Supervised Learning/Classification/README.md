@@ -29,8 +29,9 @@ We are using the Titanic dataset for most of the . The data is explained below:
 
 Here, we will compare the best classification error from each implemented classification algorithm for the PCA data subset and the full dimension data:
 
-A few notes:
+Notes:
 - The perceptron classifications oscillate between high accuracy and low accuracy. We take the higher accuracy here, which is still lower than the other algorithms typically.
+- The multilayer perceptron is trained on a different dataset, and has been omitted here. Its results are analyzed within its notebook.
 
 
 | Algorithm            | PCA Data accuracy | Full Dimension Data accuracy |
@@ -42,7 +43,7 @@ A few notes:
 | Bagging              | 77.53%            | 83.52%                       |
 | Random Forest        | 71.16%	           | 81.65%	                      |
 
-
+We can see that the best PCA data accuracy is bagging (with a decision tree of depth 5), with decision trees and KNN right behind. For the Full-dimension data, decision trees have the best accuracy, with bagging right behind and random forest not that far off.
 
 ## Prerequisites
 
